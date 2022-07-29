@@ -1,0 +1,247 @@
+:root{
+    --header-color : #3742fa;
+    --footer-color : #3742fa;
+    --title-color : #3742fa;
+    --text-color : #def345;
+    --light-color : #fff;
+    --bg-dark : #2f3542;
+    --bg-darkgray : #57606f;
+    --light-smoth : #f1f2f6;
+    --text-hover : #a4b0be;
+    --header-bg : #1e272e;
+    --btn-hover : #1e3799;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: '';
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+}
+
+
+
+/* ===========================     root    ========================= */
+/* ===========================     root    ========================= */
+
+
+/* =========   header   =========*/
+header{
+    background-color: var(--header-bg);
+    margin-bottom: 20px;
+}
+
+.top__title{
+    text-align: center;
+    color: var(--light-smoth);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site__logo{
+    font-size: 28px;
+    font-weight: 900;
+    color: var(--light-smoth);
+    text-transform: uppercase;
+    cursor: pointer;
+    height: 60px;
+    width: 60px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.site__logo img{
+    height: 100%;
+    width: 100%;
+}
+
+.site__logo img:hover{
+    transform: scale(1.2);
+}
+
+.top__menu{
+    background-color: '';
+}
+
+.top__menu ul{
+    list-style: none;
+    display: flex;
+    text-align: center;
+}
+
+.top__menu ul li{
+    width: 90px;
+}
+
+.top__menu ul li a{
+    text-decoration: none;
+    color: var(--light-smoth);
+    transition: .3s;
+    display: inline-flex;
+}
+
+.top__menu ul li a:hover{
+    color: var(--text-hover);
+}
+
+.top__menu ul li a i{
+    margin-right: 4px;
+}
+/* =========   header>>-----End   =========*/
+
+
+/* =========   (((main)))---->start   =========*/
+/* =========   (((main)))---->start   =========*/
+
+/* ------ main ----- */
+.main{
+    background-color: '';
+}
+
+.my__profile{
+    height: 90vh;
+    background-color: var(--bg-darkgray);
+    padding: 30px 0 0 0;
+    z-index: 1;
+}
+
+.profile{
+    height: 80vh;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.profile__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__left{
+    width: 50%;
+    padding: 10px 4px 0 20px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.person__info{
+    margin-top: 30px;
+}
+
+.person__info h1 span{
+    color: var(--header-color);
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.person__info h1 p{
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.person__info p{
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.person__info p a{
+    text-decoration: none;
+    color: var(--header-color);
+}
+
+.person__info p a:hover{
+    color: var(--bg-dark);
+}
+
+/* ----persion contact section design */
+
+.person__contact{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.person__contact button{
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 10px;
+    box-shadow: 3px 10px 10px var(--bg-darkgray);
+    background-color: var(--footer-color);
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.person__contact button:hover{
+    background-color: var(--btn-hover);
+}
+
+.person__contact i{
+    height: 40px;
+    width: 40px;
+    font-size: 2.4em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s;
+    box-shadow: 3px 10px 10px var(--bg-darkgray);
+}
+
+.person__contact i:hover{
+    color: var(--footer-color);
+}
+
+
+/* persion site start */
+.person__site{
+    position: absolute;
+    bottom: 0;
+    margin-top: 20px;
+}
+
+.person__site a{
+    text-decoration: none;
+    margin:0 10px 0 10px;
+}
+
+.person__site a:hover{
+    color: var(--text-hover);
+}
+/* persion site end */
+
+
+/* profile right site ------->>> start */
+.profile__right{
+    width: 50%;
+    background-color: blueviolet;
+}
+
+.profile__right img{
+    height: 100%;
+    width: 100%;
+}
+
+/* =========   (((main)))---->end   =========*/
+/* =========   (((main)))---->end   =========*/

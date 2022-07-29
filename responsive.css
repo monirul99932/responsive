@@ -1,0 +1,287 @@
+:root{
+    --header-color : #3742fa;
+    --footer-color : #3742fa;
+    --title-color : #3742fa;
+    --text-color : #def345;
+    --light-color : #fff;
+    --bg-dark : #2f3542;
+    --bg-darkgray : #57606f;
+    --light-smoth : #f1f2f6;
+    --text-hover : #a4b0be;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: var(--footer-color);
+    box-sizing: border-box;
+}
+
+
+/* --------------only for desktop screen-------------- */
+/* --------------only for desktop screen-------------- */
+@media screen and (max-width : 1920px) {
+    body{
+        background-color: '';
+    }
+
+    /* ----------   header    --------- */
+
+    header{
+        position: sticky;
+        top: -60px;
+        z-index: 9;
+    }
+
+    .top__menu ul li a:hover{
+        color: var(--footer-color);
+    }
+
+
+    /* ==========    main start    ========= */
+    /* ==========    main end    ========= */
+}
+
+
+
+
+
+
+/* --------------only for tablet screen-------------- */
+/* --------------only for tablet screen-------------- */
+@media screen and (max-width : 768px){
+    body{
+        background-color: transparent;
+    }
+    /* ==========    header start    ========= */
+
+    /* ==========    header end    ========= */
+
+
+    .top__menu ul li a:hover{
+        color: var(--footer-color);
+    }
+
+
+
+
+    /* ==========    main start    ========= */
+    main{
+        background-color: '';
+    }
+
+    .my__profile{
+        background-color: red;
+    }
+    .profile
+    .profile__left
+    .person__info h1 span{
+        font-size: 24px;
+    }
+    .person__info h1 p{
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .person__info p{
+        font-size: 16px;
+        padding-right: 5px;
+    }
+    /* person__contact */
+    .person__contact {
+        margin-top: 50px;
+    }
+    /* person__site */
+    .person__site{
+        font-size: 14px;
+        position: relative;
+        top: 50px;
+    }
+    /* profile__right */
+    /* .profile__right */
+
+    /* ==========    main end    ========= */
+}
+
+
+
+
+
+
+
+
+/* --------------only for mobile screen-------------- */
+/* --------------only for mobile screen-------------- */
+/* --------------only for mobile screen-------------- */
+/* --------------only for mobile screen-------------- */
+@media screen and (max-width: 600px) {
+    /* ------    header    -------- */
+    header{
+        height: 210px;
+        position: sticky;
+        top: -160px;
+    }
+
+    .top__title{
+        margin-bottom: 10px;
+    }
+
+    .top__title .site__title h1{
+        font-size: 28px;
+        color: var(--footer-color);
+    }
+    .top__title .site__title p{
+        font-size: 14px;
+    }
+
+    .site__logo{
+        margin-top: 15px;
+        height: 70px;
+        width: 70px;
+        overflow: none;
+        border-radius: 20px;
+    }
+
+    .site__logo p{
+        display: none;
+    }
+
+    .site__logo img{
+        height: 100%;
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .site__logo img:hover{
+        filter: grayscale(1);
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top__menu{
+        width: 100%;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .top__menu ul{
+        display: flex;
+        justify-content: center;
+    }
+
+    .top__menu ul li{
+        margin-top: 0;
+        text-transform: uppercase;
+        width: 100%;
+        margin: 10px;
+    }
+
+    .top__menu ul li a p{
+        display: none;
+    }
+
+    
+    .top__menu ul li a:hover{
+        color: var(--text-hover);
+    }
+
+    .top__menu ul li a{
+        color: var(--footer-color);
+    }
+
+    .top__menu ul li a i{
+        font-size: 2em;
+    }
+
+
+    /* ===========    header end    ========== */
+    /* -------------------X------------------ */
+
+
+
+    /* -----------------()---------------- */
+    /* ===========    main Start    ========== */
+    main{
+        background-color: '';
+    }
+
+    /* ==== myprofile section design >> start ==== */
+    .my__profile{
+        background-color: var(--bg-darkgray);
+    }
+
+    .profile{
+        display: flex;
+        flex-direction: column;
+        overflow: visible;
+    }
+
+    .profile__row{
+        height: '';
+    }
+
+    .profile__left{
+        width: 100%;
+    }
+
+    .person__info{
+        height: '';
+    }
+
+    .person__info h1 span{
+        color: red;
+        font-size: 32px;
+    }
+
+    .person__info h1 p{
+        font-size: 18px;
+    }
+
+    .person__info p{
+        font-size: 18px;
+    }
+
+    /* persion contact */
+
+    .person__contact{
+        margin-top: 20px;
+        padding: 0 20px 0 0;
+    }
+
+    .person__contact button{
+        font-size: 18px;
+    }
+
+    /* persion site design */
+
+    .person__site{
+        margin-top: -18px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+
+
+    /* ------------profile__right--------- */
+    .profile__right{
+        margin-top: 50px;
+        width: 100%;
+        height: 300px;
+    }
+
+    .profile__right img{
+        width: 100%;
+        height: 100%;
+    }
+    /* ==== myprofile section design >> end ==== */
+
+    
+   /* ===========    main end    ========== */
+    /* ----------------- X---------------- */
+
+
+}
